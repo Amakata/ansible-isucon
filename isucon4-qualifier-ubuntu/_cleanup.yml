@@ -24,6 +24,3 @@
         removes: /home/isucon/sql/generate_users.rb
 
     - shell: find /home/isucon/webapp -maxdepth 2 -name 'README.*' -delete
-
-    - file: path=/home/isucon/php/nginx.local.conf state=absent
-    - file: path=/home/isucon/php/Procfile state=absent
